@@ -1,0 +1,12 @@
+    #Picture{
+        background-image: url('http://webtech.hints.ninja/head2.jpg');
+        width: 1440px;
+        height: 700px;
+        background-repeat: no-repeat;
+    }
+
+    #Picture:hover {
+        background-image: url('http://webtech.hints.ninja/ax.jpg');
+        width: 1440px;
+        height: 700px;
+    }
