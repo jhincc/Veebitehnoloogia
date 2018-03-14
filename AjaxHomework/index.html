@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Jarmo's Memetastic Currency Calculator</a>
+    </nav>
+    <br>
+    <div class="container text-center">
+      <div id="loading">
+            <img src="https://i.imgur.com/5Ufm8EB.jpg" alt="" />
+        </div>
+
+        
+        <div id="converter d-none">
+                <img src="https://i.imgur.com/TGOFKtR.gif" alt="">
+                <br>
+                <br>
+            <div class="col-md-6">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">€</span>
+                    </div>
+                    <input id="amount" type="number" class="form-control form-control-lg" step="0.1" autofocus required>
+                </div>
+            </div>
+            <div>
+                <br>
+                <br>
+                <img src="https://memegenerator.net/img/instances/76531721/best-i-can-do-is-this.jpg" alt="">
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                    <div class="col-md-6">
+                
+                      <div class="input-group">
+                        <form id="output">
+                        <input id="result" type="text" class="form-control" placeholder="Converted currency" disabled> 
+                
+                        <div class="input-group-btn btn-group btn-group-toggle" data-toggle="buttons">
+                          <label class="btn btn-primary btn-lg active">
+                            <input type="radio" name="options" id="eur" autocomplete="off" checked>EUR
+                          </label>
+                          <label class="btn btn-primary btn-lg">
+                            <input type="radio" name="options" id="usd" autocomplete="off">USD
+                          </label>
+                          <label class="btn btn-primary btn-lg">
+                            <input type="radio" name="options" id="gbp" autocomplete="off">GBP
+                          </label>
+                        </div>
+                    </form>
+                      </div>
+                
+                    </div>
+                  </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="fixer.js"></script>
